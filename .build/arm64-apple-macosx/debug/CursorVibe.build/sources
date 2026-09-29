@@ -1,0 +1,13 @@
+/Users/iyunseung/orca/maczz/CursorVibe/App/CursorVibeApp.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorAnimation.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorEngine.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorOverlay.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorRenderer.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorTracker.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Models/CursorTheme.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Models/StoreModels.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Store/StoreManager.swift
+/Users/iyunseung/orca/maczz/CursorVibe/UI/MenuBarView.swift
+/Users/iyunseung/orca/maczz/CursorVibe/UI/SettingsView.swift
+/Users/iyunseung/orca/maczz/CursorVibe/UI/StoreView.swift
+/Users/iyunseung/orca/maczz/CursorVibe/Utilities/CursorStateDetector.swift

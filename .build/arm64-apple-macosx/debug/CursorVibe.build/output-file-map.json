@@ -1,0 +1,96 @@
+{
+  "": {
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/master.swiftdeps"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/App/CursorVibeApp.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorAnimation.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorEngine.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorOverlay.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorRenderer.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorTracker.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Models/CursorTheme.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Models/StoreModels.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Store/StoreManager.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/UI/MenuBarView.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/UI/SettingsView.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/UI/StoreView.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.dia"
+  },
+  "/Users/iyunseung/orca/maczz/CursorVibe/Utilities/CursorStateDetector.swift": {
+    "dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.d",
+    "object": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swift.o",
+    "swiftmodule": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector~partial.swiftmodule",
+    "swift-dependencies": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swiftdeps",
+    "diagnostics": "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.dia"
+  }
+}
