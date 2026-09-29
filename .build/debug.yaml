@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "CursorVibe-arm64-apple-macosx15.0-debug.exe": ["<CursorVibe-arm64-apple-macosx15.0-debug.exe>"]
+  "CursorVibe-arm64-apple-macosx15.0-debug.module": ["<CursorVibe-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<CursorVibe-arm64-apple-macosx15.0-debug.exe>","<CursorVibe-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<CursorVibe-arm64-apple-macosx15.0-debug.exe>","<CursorVibe-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/iyunseung/orca/maczz/CursorVibe/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe":
+    is-mutated: true
+commands:
+  "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe-entitlement.plist"]
+    description: "Write auxiliary file /Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe-entitlement.plist"
+
+  "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/iyunseung/orca/maczz/CursorVibe/App/CursorVibeApp.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorAnimation.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorEngine.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorOverlay.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorRenderer.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorTracker.swift","/Users/iyunseung/orca/maczz/CursorVibe/Models/CursorTheme.swift","/Users/iyunseung/orca/maczz/CursorVibe/Models/StoreModels.swift","/Users/iyunseung/orca/maczz/CursorVibe/Store/StoreManager.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/MenuBarView.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/SettingsView.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/StoreView.swift","/Users/iyunseung/orca/maczz/CursorVibe/Utilities/CursorStateDetector.swift"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/sources"]
+    description: "Write auxiliary file /Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/sources"
+
+  "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swift.o"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.product/Objects.LinkFileList"
+
+  "/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<CursorVibe-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<CursorVibe-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<CursorVibe-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<CursorVibe-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/Modules/CursorVibe.swiftmodule"]
+    outputs: ["<CursorVibe-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.CursorVibe-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.product/Objects.LinkFileList"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/CursorVibe"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug","-o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe","-module-name","CursorVibe","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_CursorVibe_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx14.0","-Xlinker","-add_ast_path","-Xlinker","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/Modules/CursorVibe.swiftmodule","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g"]
+
+  "C.CursorVibe-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe-entitlement.plist"]
+    outputs: ["<CursorVibe-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/CursorVibe"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe-entitlement.plist","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe"]
+
+  "C.CursorVibe-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/iyunseung/orca/maczz/CursorVibe/App/CursorVibeApp.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorAnimation.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorEngine.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorOverlay.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorRenderer.swift","/Users/iyunseung/orca/maczz/CursorVibe/Engine/CursorTracker.swift","/Users/iyunseung/orca/maczz/CursorVibe/Models/CursorTheme.swift","/Users/iyunseung/orca/maczz/CursorVibe/Models/StoreModels.swift","/Users/iyunseung/orca/maczz/CursorVibe/Store/StoreManager.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/MenuBarView.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/SettingsView.swift","/Users/iyunseung/orca/maczz/CursorVibe/UI/StoreView.swift","/Users/iyunseung/orca/maczz/CursorVibe/Utilities/CursorStateDetector.swift","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/sources"]
+    outputs: ["/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorVibeApp.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorAnimation.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorEngine.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorOverlay.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorRenderer.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTracker.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorTheme.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreModels.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreManager.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/MenuBarView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/SettingsView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/StoreView.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/CursorStateDetector.swift.o","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/Modules/CursorVibe.swiftmodule"]
+    description: "Compiling Swift Module 'CursorVibe' (13 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","CursorVibe","-emit-dependencies","-emit-module","-emit-module-path","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/Modules/CursorVibe.swiftmodule","-output-file-map","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/output-file-map.json","-incremental","-c","@/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/CursorVibe.build/sources","-I","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/iyunseung/orca/maczz/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","CursorVibe_main","-swift-version","5","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","maczz"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/iyunseung/orca/maczz/CursorVibe/","/Users/iyunseung/orca/maczz/Package.swift","/Users/iyunseung/orca/maczz/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
